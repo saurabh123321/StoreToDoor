@@ -23,15 +23,6 @@
             <li class="item"><a href="#contact">Contact Us</a></li>
         </ul>
 
-        <div class="social-icon">
-            <div class="top-social">
-                <a href="#" ><i class="fa fa-facebook"></i></a>
-                <a href="#" ><i class="fa fa-instagram"></i></a>
-                <a href="#" ><i class="fa fa-twitter"></i></a>
-                <a href="#" ><i class="fa fa-youtube"></i></a>
-
-                    
-            </div>
 
         </div>
     </nav>
@@ -125,8 +116,24 @@
             Copyright &copy; www.StoreToDoor.com. All rights reserved!
             <p class="p">Developer - Saurabh Khule</p>
             <p>Contact - 7888268328</p>
+           
         </div>
+
+        <div class="timecon">
+            <p class="time">Current time is <span id="time"></span></p>
+        </div>
+
+        
     </footer>
+
+    <script>
+
+        setInterval(updateTime, 1000);
+        function updateTime(){
+            time.innerHTML= new Date();
+        }
+
+    </script>
 </body>
 
 </html>

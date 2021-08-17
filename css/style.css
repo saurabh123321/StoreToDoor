@@ -218,6 +218,7 @@ form .submit:hover{
 
 
 footer{
+    display: flexbox;
     background: black;
     color: white;
     padding: 9px 20px;
@@ -255,3 +256,9 @@ footer{
     
 }
 
+#time{
+    font-weight: bold;
+}
+.time{
+    text-align: center;
+}
